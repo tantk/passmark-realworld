@@ -86,7 +86,7 @@ For a single-failure deep-dive, grab `test-results/<test>/trace.zip` and drop it
 | 05 | Read article + comments | scaffolded |
 | 06 | Update (edit) article | scaffolded |
 | 07 | Delete article | scaffolded |
-| 08 | Favorite, comment, edit profile | scaffolded |
+| 08 | Two-user social: B favorites/follows/comments on A; B edits profile | scaffolded |
 
 Each test is one `runSteps()` call with plain-English `steps` + `assertions`.
 
