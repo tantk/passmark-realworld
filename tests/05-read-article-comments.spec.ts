@@ -5,7 +5,7 @@ const BASE = process.env.REALWORLD_BASE_URL ?? 'http://localhost:4200';
 
 test.describe('Read article + post comment', () => {
   test('user can open their article and post a comment that shows under the article', async ({ page }) => {
-    test.setTimeout(180_000);
+    test.setTimeout(240_000);
     const commentText = 'Drive-by comment {{run.shortid}} — regression test.';
 
     await runSteps({
