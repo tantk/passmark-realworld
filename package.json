@@ -1,0 +1,22 @@
+{
+  "name": "passmark-realworld",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Passmark AI regression test suite targeting the Conduit / RealWorld reference app. Built for the Breaking Apps Hackathon.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^20.14.0",
+    "dotenv": "^16.4.5",
+    "passmark": "latest",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
